@@ -1,1 +1,1 @@
-podman push quay.io/pie3aq/debian-mysql:1.0.0
+podman push harbor.k8s.lp-lab.cloud/studentX/debian-mysql:1.0.0
