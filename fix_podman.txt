@@ -8,7 +8,7 @@ export CNI_PLUGIN_VERSION=v1.6.0
 curl -L -o cni-plugins.tgz "https://github.com/containernetworking/plugins/releases/download/${CNI_PLUGIN_VERSION}/cni-plugins-linux-${ARCH_CNI}-${CNI_PLUGIN_VERSION}".tgz
 
 # We need a place to dump this archive to somewhere "safe"
-mkdir ~/src/cni
+mkdir -p ~/src/cni
 
 # Dump the archive
 sudo tar -C ~/src/cni -xzf cni-plugins.tgz
